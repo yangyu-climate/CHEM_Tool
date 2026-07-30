@@ -5,7 +5,7 @@ It prepares gridded emission files by reading raw chemistry emission
 inventories, projecting them to WRF domains, and writing WRF-Chem-compatible
 NetCDF emission files.
 
-Repository: https://github.com/yangyu-climate/Chem_tool
+Repository: https://github.com/yangyu-climate/CHEM_Tool
 
 ## Author and Copyright
 
@@ -254,7 +254,7 @@ E_PM_25
 ## Code Review Notes
 
 - This project is maintained in GitHub at
-  `https://github.com/yangyu-climate/Chem_tool`.
+  `https://github.com/yangyu-climate/CHEM_Tool`.
 - The main maintained project code was reviewed in `start*.m`, `Tool_box`,
   and `Run/WRF_Emission`. Bundled third-party packages such as `m_map` and
   `mexcdf` were treated as external dependencies.
