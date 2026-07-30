@@ -1,0 +1,7 @@
+&control
+
+wrf_dir = '/home7/yyu12/Clark/application/WRF_CHEM/WRF/Noah_WIR'
+domains = 3,
+
+/
+

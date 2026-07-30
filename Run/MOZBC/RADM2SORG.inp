@@ -1,0 +1,56 @@
+
+&control
+
+do_bc     = .true.
+do_ic     = .true.
+
+domain    = 1
+
+dir_wrf = 'TEST/'
+dir_moz = 'CAMchem/'
+
+fn_moz  = 'hb0000.nc'
+def_missing_var = .true.
+
+spc_map = 'co -> CO', 
+          'o3 -> O3', 
+          'so2 -> SO2', 
+          'no -> NO', 
+          'no2 -> NO2',
+          'h2o2 -> H2O2', 
+          'no3 -> NO3', 
+          'n2o5 -> N2O5', 
+          'hno3 -> HNO3', 
+          'nh3 -> NH3',
+          'hcho -> CH2O', 
+          'pan -> PAN', 
+          'tpan -> MPAN', 
+          'tol -> .75*TOLUENE', 
+          'hno4 -> HO2NO2',
+          'eth -> C2H6', 
+          'hc3 -> C3H8', 
+          'hc5 -> BIGALK', 
+          'iso -> ISOP', 
+          'ald -> CH3CHO+MACR', 
+          'ket -> CH3COCH3+HYAC', 
+          'gly -> GLYOXAL',
+          'mgly -> CH3COCHO', 
+          'csl -> CRESOL', 
+          'ol2 -> C2H4', 
+          'olt -> C3H6+MVK+.5*BIGENE', 
+          'oli -> .5*BIGENE', 
+          'ora2 -> CH3COOH', 
+          'op1 -> CH3OOH',
+          'orgpai->2.03507e-2*pom_a1+2.03507e-2*pom_a4;1.e9',
+          'orgpaj->0.37992*pom_a1+0.37992*pom_a4;1.e9',
+          'antha->0.011199*pom_a1+0.011199*pom_a4;1.e9', 
+          'eci->bc_a1+bc_a4;0.113571e9',
+          'ecj->bc_a1+bc_a4;0.264125e9',
+          'claj->1.2*ncl_a1;1e9',
+          'naaj->0.8*ncl_a1;1e9',
+          'seas->ncl_a1+ncl_a2+ncl_a3;1.e9',
+          'p25i->4.66064*[dst_a1];1.e9',
+          'p25j->4.66064*[dst_a2];1.e9',
+          'soila->4.66064*[dst_a3];1.e9',
+/
+

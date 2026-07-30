@@ -1,0 +1,17 @@
+# Runtime logs
+running.log
+running.err
+*.log
+*.err
+
+# Generated WRF-Chem outputs
+Run/WRF_Emission/Result/
+Run/WRF_Emission/emis_d*.nc
+
+# MATLAB temporary/autosave files
+*.asv
+*.m~
+
+# OS metadata
+.DS_Store
+Thumbs.db
