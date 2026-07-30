@@ -299,6 +299,7 @@ Large NetCDF and archive files are tracked with Git LFS:
 ```text
 *.nc
 *.tgz
+*.b
 ```
 
 Install Git LFS before cloning or updating large data files:
