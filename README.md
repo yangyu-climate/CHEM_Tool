@@ -253,7 +253,8 @@ E_PM_25
 
 ## Code Review Notes
 
-- This directory is not currently a Git repository.
+- This project is maintained in GitHub at
+  `https://github.com/yangyu-climate/Chem_tool`.
 - The main maintained project code was reviewed in `start*.m`, `Tool_box`,
   and `Run/WRF_Emission`. Bundled third-party packages such as `m_map` and
   `mexcdf` were treated as external dependencies.
