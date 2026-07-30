@@ -294,7 +294,7 @@ redistributing the toolkit.
 
 ## Git LFS
 
-Large NetCDF and archive files are tracked with Git LFS:
+Large NetCDF, archive, and map binary files are tracked with Git LFS:
 
 ```text
 *.nc
