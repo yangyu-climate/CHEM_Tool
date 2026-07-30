@@ -5,6 +5,8 @@ It prepares gridded emission files by reading raw chemistry emission
 inventories, projecting them to WRF domains, and writing WRF-Chem-compatible
 NetCDF emission files.
 
+Repository: https://github.com/yangyu-climate/Chem_tool
+
 ## Author and Copyright
 
 Author: Yang Yu  
@@ -288,3 +290,19 @@ data packages:
 
 Check the license and README files inside those directories before
 redistributing the toolkit.
+
+## Git LFS
+
+Large NetCDF and archive files are tracked with Git LFS:
+
+```text
+*.nc
+*.tgz
+```
+
+Install Git LFS before cloning or updating large data files:
+
+```bash
+git lfs install
+git lfs pull
+```
